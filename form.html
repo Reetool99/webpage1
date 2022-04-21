@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="" class="main_frm" onsubmit="return validateform()" name="validate">
+
+            <div>
+                <label for="email">Email Id :</label> <br>
+                <input type="text" name="email" placeholder="Enter Your Email" id="email">
+            </div>
+            <div>
+                <label for="current_password">Password :</label> <br>
+                <input type="password" placeholder="Enter Your Password" id="current_password" name="password"
+                    autocomplete="">
+            </div>
+
+            <div>
+                <label for="num">Contact Number :</label> <br>
+                <input type="text" name="number" id="num" placeholder="Enter Your Number">
+            </div>
+
+            <div>
+                <h4>Radio</h4>
+                <input type="radio" id="html" name="fav_language" value="HTML" checked>
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+            <div>
+                <h4>Checkbox</h4>
+                <input type="checkbox" id="food1" value="pavbhaji" class="fOOd">
+                <label for="food1"> Pavbhaji</label><br>
+                <input type="checkbox" id="food2" value="dosa" class="fOOd">
+                <label for="food2"> Dosa</label><br>
+                <input type="checkbox" id="food3" value="Manchurian" class="fOOd">
+                <label for="food3"> Manchurian</label><br>
+                <input type="checkbox" id="food4" value="paneer chilli" class="fOOd">
+                <label for="food4"> Paneer Chilli </label><br>
+                <input type="checkbox" id="food5" value="hakka" class="fOOd">
+                <label for="food5"> Hakka Noddles</label><br>
+                <input type="checkbox" id="food6" value="momo" class="fOOd">
+                <label for="food6">Momos</label><br>
+                <input type="checkbox" id="food7" value="wrap" class="fOOd">
+                <label for="food6">Paneer Wrap </label><br>
+
+            </div>
+
+
+
+
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
