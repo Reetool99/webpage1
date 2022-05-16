@@ -1,4 +1,9 @@
 
+
+//1. form :- document.forms["form name"]["filename"]
+// 2. form :- document.getElementById
+
+
 function validateform() {
 
     let email = document.forms["validate"]['email'].value;
@@ -31,11 +36,9 @@ function validateform() {
     }
 
     let checkBoxes = document.getElementsByClassName('fOOd');
-    let isChecked = false;
     let values = [];
     for (let i = 0; i < checkBoxes.length; i++) {
         if (checkBoxes[i].checked) {
-            //isChecked = true;
             values.push(checkBoxes[i].value);
 
         }
@@ -51,4 +54,25 @@ function validateform() {
 
 
     return false
+}
+
+
+function myfunction() {
+    document.getElementById('uplod_btn').style.display = "none"
+}
+
+var input = document.getElementById('upload');
+var infoArea = document.getElementById('file_name');
+
+input.addEventListener('change', showFileName);
+
+function showFileName(event) {
+    var input = event.srcElement;
+    var fileName = input.files[0].name;
+    infoArea.textContent = fileName;
+}
+
+function myreset() {
+    infoArea.style.display = "none";
+    document.getElementById('uplod_btn').style.display = "inline"
 }

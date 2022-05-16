@@ -1,0 +1,181 @@
+/* .cls1 {
+    background-color: violet;
+}
+
+.cls2 {
+    background-color: blue;
+}
+
+.cls3 {
+    background-color: brown;
+} */
+
+.cl1 {
+    background-color: red;
+}
+
+.cl2 {
+    background-color: yellow;
+}
+
+.cl3 {
+    background-color: blue;
+}
+
+.cl1 .cl2 .cl3 {
+    background-color: aqua;
+}
+
+.cl1 .cl2 {
+    background-color: black;
+}
+
+.cl1 .cl3 {
+    background-color: brown;
+}
+
+.cl2 .cl3 {
+    background-color: orange;
+}
+
+.container1 {
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.clck:active {
+    background-color: blue;
+}
+
+.hvr:hover .show {
+    display: block;
+}
+
+/* div:hover p {
+    display: block;
+} */
+
+.show {
+    display: none;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+
+
+
+.btn_drop {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 6px;
+
+
+}
+
+.hover_div {
+    width: 125px;
+}
+
+.hover_div:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 12px;
+    margin-top: 14px;
+    display: none;
+    position: relative;
+}
+
+.dropdown ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.dropdown ul li {
+    padding: 7px 7px;
+}
+
+/* .droplist1:hover {
+    background-color: lightblue;
+    cursor: pointer;
+} */
+
+
+.dropdownlist {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.dropdownlist::before {
+    position: absolute;
+    content: "";
+    border-left: 2px solid;
+    border-top: 2px solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: white;
+    top: -7px;
+    left: 7px;
+}
+
+.dropdownlist:hover::before {
+    /* background-color: lightblue; */
+    cursor: pointer;
+}
+
+/* .left_line {
+    position: absolute;
+    border-style: solid;
+    border-left: 1px;
+    height: 12px;
+    top: -13px;
+    transform: rotate(45deg);
+    left: 30px;
+    border-width: thin;
+
+}
+
+.right_line {
+    position: absolute;
+    border-style: solid;
+    border-right: 1px;
+    height: 12px;
+    top: -13px;
+    transform: rotate(-45deg);
+    left: 40px;
+    border-width: thin;
+}
+
+.bottom_line {
+    position: absolute;
+    border-style: solid;
+    border-width: thin;
+    top: -1px; */
+/* transform: rotate(-45deg); */
+/* left: 26px;
+    width: 17px;
+    border-color: white;
+} */
+
+/* .dropdown::before {
+    position: absolute;
+    content: "";
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 13px solid black;
+    left: 20px;
+    bottom: 97px;
+} */

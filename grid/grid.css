@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hedr {
+    height: 4pc;
+    background-color: lightcoral;
+    border: 3px solid black;
+}
+
+.hedr h2 {
+    padding: 18px 2px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 150px 320px;
+    padding: 24px 10px;
+    gap: 40px;
+    /* border: 2px solid black; */
+    animation-name: g_cir;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes g_cir {
+    from {
+        background-color: white;
+
+    }
+
+    to {
+        background-color: rgb(143 118 118 / 62%);
+    }
+}
+
+
+#box1 {
+    background-color: lightgreen;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    animation-name: s_cir;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes s_cir {
+    from {
+        background-color: lightgreen;
+    }
+
+    to {
+        background-color: rgb(65, 247, 65);
+    }
+}
+
+#box2 {
+    background-color: lightcyan;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    animation-name: p_cir;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes p_cir {
+    from {
+        background-color: lightcyan;
+    }
+
+    to {
+        background-color: rgb(29, 153, 153);
+    }
+}
+
+#box3 {
+    background-color: rgb(184, 173, 230);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    animation-name: r_cir;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes r_cir {
+    from {
+        background-color: rgb(184, 173, 230);
+    }
+
+    to {
+        background-color: rgb(147, 122, 244);
+    }
+}
+
+#box4 {
+    background-color: lightpink;
+    border: 3px solid black;
+    grid-area: 1 / 4 / 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    animation-name: a_cir;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a_cir {
+    from {
+        background-color: lightpink;
+    }
+
+    to {
+        background-color: rgb(250, 114, 134);
+    }
+}
+
+#box5 {
+    background-color: lightgoldenrodyellow;
+    border: 3px solid black;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    animation-name: b_cir;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b_cir {
+    from {
+        background-color: lightgoldenrodyellow;
+    }
+
+    to {
+        background-color: rgb(242, 242, 81);
+    }
+}
+
+.footr {
+    height: 4pc;
+    background-color: lightgrey;
+    border: 3px solid black;
+}
+
+.footr h2 {
+    padding: 18px 2px;
+    text-align: center;
+
+}

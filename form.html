@@ -54,14 +54,43 @@
                 <label for="food6">Momos</label><br>
                 <input type="checkbox" id="food7" value="wrap" class="fOOd">
                 <label for="food6">Paneer Wrap </label><br>
+            </div>
+            <br>
+            <div>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <option value="" selected disabled hidden>Select</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <br> <br>
+            <br> <br>
+            <div>
+                <label for="upload" id="uplod_btn" onclick="myfunction()">File Upload <img
+                        src="img/icons8-camera-24.png" alt="camera" class="camera_icon"></label>
+                <input type="file" id="upload">
+            </div>
+            <div id="file_name">
 
             </div>
 
+            <br>
+
+            <!-- <div clas="file_input_wrap">
+                <input type="file" name="imageUpload" id="imageUpload" class="hide" />
+                <label for="imageUpload" class="btn btn-large">Select file</label>
+            </div>
+            <br>
+            <div class="img_preview_wrap">
+                <img src="" id="imagePreview" alt="Preview Image" width="200px" class="hide" />
+            </div> -->
 
 
-
-
-            <input type="submit" value="submit">
+            <input type="Reset" value="Reset" onclick="myreset()">
+            <input type="Submit" value="Submit">
         </form>
     </div>
     <script src="form.js"></script>
