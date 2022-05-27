@@ -1,0 +1,862 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+
+
+.top_section {
+    /* background-image: url(../img/Base\ \(1\).png); */
+    background: rgb(0, 184, 217, 0.1);
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    height: 758px;
+    position: relative;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.top_hrdr {
+    height: 88px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    /* margin-left: 30px; */
+    width: 14%;
+}
+
+.logo_img {
+    width: 50%;
+    height: 50px;
+    /* border-radius: 19px; */
+    margin-top: 6px;
+}
+
+
+
+.nav_ul {
+    display: flex;
+    /* float: left; */
+    /* display: block; */
+    list-style-type: none;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_li {
+    text-decoration: none;
+    color: #183B56;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_icon {
+    font-size: 12px;
+}
+
+.nav_btn {
+    width: 131%;
+    height: 40px;
+    border: 2px solid #1565D8;
+    color: #1565D8;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.bg_shape {
+    position: absolute;
+    right: 0%;
+    /* bottom: -135px; */
+    /* bottom: 0; */
+    top: 50%;
+}
+
+.top_banner {
+    padding: 70px 0px;
+    position: relative;
+}
+
+.top_banner::after {
+    width: 153px;
+    height: 38px;
+    content: "";
+    position: absolute;
+    right: -9.3rem;
+    bottom: 56px;
+    background: rgb(0, 184, 217, 0.1);
+}
+
+.top_mid_banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_right_banner {
+    display: flex;
+    position: relative;
+    top: 16px;
+}
+
+.top_girl {
+    position: relative;
+    top: 2px;
+    left: 30px;
+}
+
+._shape {
+    position: relative;
+    top: 25px;
+    width: 100%;
+}
+
+.shrt_shape {
+    margin: 10px 0px;
+}
+
+.top_head {
+    font-family: 'HK Grotesk Light Legacy';
+    width: 448px;
+    height: 136px;
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+    color: #183B56;
+    margin-top: 49px;
+    font-weight: 700;
+}
+
+.top_para {
+    position: absolute;
+    bottom: 28%;
+}
+
+.top_box_banner {
+    margin-top: 61px;
+    width: 75%;
+    background-color: #fff;
+    height: 85px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 37%;
+    box-shadow: 0px 12px 16px rgb(0 0 0 / 8%);
+}
+
+.top_box_banner li {
+    color: #959EAD;
+}
+
+.top_icon {
+    margin: 15px;
+}
+
+.top_box_list {
+    position: relative;
+}
+
+.top_box_list::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 87px;
+    background-color: #E5EAF4;
+    bottom: -20px;
+    right: -78%;
+}
+
+.top_box_btn {
+    width: 17%;
+    height: 56px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    background: #36B37E;
+    position: absolute;
+    right: 2%;
+    top: 17%;
+    border-radius: 3px;
+
+}
+
+.Strt_Banner {
+    background: #F9FBFE;
+    position: relative;
+    /* padding: 50px 0px; */
+    padding-top: 135px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.Strt_Banner_Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Strt_Banner_Head_right h2 {
+    font-family: "HK Grotesk";
+    font-size: 48px;
+    font-weight: 700;
+    color: #183B56;
+}
+
+.Strt_Banner_Head_right p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A7184;
+    margin-top: 10px;
+}
+
+.Strt_Banner_Head_left p {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    color: #36B37E;
+}
+
+.Strt_Banner_ul {
+    display: flex;
+    margin-left: -299px;
+    margin-right: -220px;
+    position: relative;
+    right: -9.5%;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.Strt_Banner_list {
+    width: 265px;
+    height: 258px;
+    /* border: 2px solid black; */
+    margin-right: 46px;
+    background-color: #fff;
+    /* padding: 25px 68px; */
+    box-shadow: 0px 12px 16px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 25px;
+}
+
+.Strt_Banner_list img {
+    width: 42px;
+    height: 42px;
+}
+
+.Strt_Banner_list_ctnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Strt_Banner_list_info h3 {
+    font-family: "HK Grotesk";
+    font-size: 24px;
+    font-weight: 700;
+    color: #183B56;
+
+}
+
+.Strt_Banner_list_info p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Strt_Banner_list_arrow_btn {
+    border: none;
+    background-color: transparent;
+}
+
+.banners {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.job_section_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.job_section_head {
+    width: 25%;
+}
+
+.job_section_head h1 {
+    font-family: "HK Grotesk";
+    font-size: 48px;
+    font-weight: 700;
+    color: #183B56;
+}
+
+.job_section_head_right p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A7184;
+}
+
+.job_section_head_right span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5A7184;
+
+}
+
+.job_fields_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job_fields_list {
+    height: 310px;
+    width: 360px;
+    border-radius: 4px;
+    /* border: 1px solid; */
+    padding: 32px 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+
+
+}
+
+.job_fields_Opened {
+    height: 310px;
+    width: 360px;
+    border-radius: 4px;
+    border: 1px dashed #E5EAF4;
+}
+
+.job_fields_list h4 {
+    font-family: "HK Grotesk";
+    width: 292px;
+    height: 64px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #183B56;
+    /* margin: 20px 20px; */
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.job_fields_head {
+    padding: 5px 15px;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    color: #183B56;
+
+}
+
+.head_clr {
+    background-color: rgb(233, 84, 50, 0.1);
+}
+
+.head_clr2 {
+    background-color: rgb(0, 184, 217, 0.1);
+}
+
+.head_clr3 {
+    background-color: rgb(54, 179, 126, 0.1)
+}
+
+.head_clr4 {
+    background-color: rgb(250, 173, 19, 0.1);
+}
+
+.head_clr5 {
+    background-color: rgb(63, 89, 138, 0.1);
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(233, 84, 50);
+    position: absolute;
+    top: 13px;
+    left: 5px;
+
+}
+
+.dot2 {
+    background-color: #00B8D9;
+}
+
+.dot3 {
+    background-color: #36B37E;
+}
+
+.dot4 {
+    background-color: #FAAD13;
+}
+
+.dot5 {
+    background-color: #3F598A;
+}
+
+.job_fields_location {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: #5A7184;
+
+}
+
+.job_fields_location i {
+    margin-right: 7px;
+}
+
+.job_fields_time {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A7184;
+
+}
+
+.job_fields_time i {
+    margin-right: 7px;
+}
+
+.job_fields_info {
+    display: flex;
+    color: #5A7184;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+
+
+}
+
+.job_fields_logo1 img {
+    background-color: #FAAD13;
+    padding: 5px 10px;
+    border-radius: 12px;
+
+}
+
+.job_fields_logoname {
+    margin: 0px 15px;
+    color: #183B56 !important;
+    font-family: "HK Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.job_fields_img_info {
+    width: 335px;
+    height: 96px;
+    font-family: "HK Grotesk";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #183B56;
+    margin-top: 20px;
+}
+
+.job_fields_imgg {
+    position: relative;
+}
+
+.job_fields_imgg span {
+    position: absolute;
+    left: 9%;
+    bottom: 12%;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #183B56;
+}
+
+.job_fields_logo_common img {
+    background-color: rgb(179, 186, 197, 0.1);
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.job_fields_Opened>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 310px;
+}
+
+.job_fields_Opened_count h1 {
+    font-family: "HK Grotesk";
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #183B56;
+}
+
+.job_fields_Opened_count p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A7184;
+    margin-top: 15px;
+}
+
+.job_fields_Opened_btn {
+    border: 2px solid #36B37E;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 22px;
+    background: transparent;
+    color: #36B37E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+.company-heading {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.company-heading h1 {
+    font-family: "HK Grotesk";
+    font-size: 48px;
+    font-weight: 700;
+    color: #183B56;
+}
+
+.company-heading p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A7184;
+    margin-top: 15px;
+}
+
+.button-group {
+    position: absolute;
+    top: 0%;
+    right: 13%;
+}
+
+
+
+.company-btn {
+    border-radius: 50%;
+    border: 2px solid #183B56;
+    opacity: 0.5;
+    height: 56px;
+    width: 56px;
+}
+
+.c_btn {
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.companies_ad {
+    /* display: flex; */
+    position: relative;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+.companies_ul {
+    display: flex;
+    position: absolute;
+    top: 26%;
+    overflow: hidden;
+    /* box-shadow: 0px 12px 16px rgb(0 0 0 / 8%); */
+    padding-bottom: 26px;
+    right: -4%;
+}
+
+.companies_list {
+    width: 270px;
+    height: 358px;
+    /* border: 2px solid black; */
+    margin-right: 25px;
+    background-color: #fff;
+    /* padding: 25px 68px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* box-shadow: 4px 10px 22px rgb(0 0 0 / 8%); */
+    border-radius: 4px;
+}
+
+.company_dash {
+    width: 61px;
+    margin: 0 auto;
+    height: 4px;
+    background-color: rgb(84, 93, 100, 0.1);
+}
+
+
+.companies_list p {
+    width: 70%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A7184;
+
+}
+
+
+
+.article_str {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.article_str_lft {
+    width: 33%;
+}
+
+.article_str_lft h2 {
+    font-family: "HK Grotesk";
+    font-size: 48px;
+    font-weight: 700;
+    color: #183B56;
+
+}
+
+.article_str_rgt {
+    width: 43%;
+}
+
+.article_str_rgt p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A7184;
+    text-align: justify;
+}
+
+.article_boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article_box_list {
+    width: 49%;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.article_box_cnt {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.article_box_logo {
+    margin: 19px 30px;
+}
+
+.article_box_txt {
+    padding: 0px 15px;
+}
+
+.article_box_txt h3 {
+    font-family: "HK Grotesk";
+    font-size: 24px;
+    font-weight: 700;
+    color: #183B56;
+}
+
+
+.article_box_credits {
+    font-family: "HK Grotesk";
+    font-size: 16px;
+    font-weight: 600;
+    color: #3EB683;
+    position: relative;
+    margin-right: 15px;
+}
+
+.article_box_credits::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #E8EAED;
+    top: 42%;
+    right: -14%;
+}
+
+
+.article_box_tym {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A7184;
+    padding-left: 15px;
+}
+
+.m_footer {
+    height: 100vh;
+    background-color: #0D2436;
+    padding-top: 68px;
+    padding-bottom: 45px;
+}
+
+.fotr_srt {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 65px;
+    align-items: center;
+}
+
+.main_footer {
+    /* width: 100%; */
+    height: 50vh;
+    margin-top: 60px;
+
+}
+
+.fotr_head {
+    font-family: 'HK Grotesk';
+    /* width: 448px; */
+    /* height: 136px; */
+    font-size: 56px;
+    /* line-height: 68px; */
+    letter-spacing: 0.2px;
+    color: #fff;
+    /* margin-top: 49px; */
+    font-weight: 700;
+}
+
+.fotr_head span {
+    color: #36B37E;
+    position: relative;
+}
+
+.fotr_head span::after {
+    content: "";
+    position: absolute;
+    width: 89%;
+    height: 3px;
+    background: #36B37E;
+    bottom: 9%;
+    left: 0%;
+
+}
+
+.fotr_icon {
+    font-size: 30px;
+}
+
+.fotr_btn {
+    height: 50px;
+    border: none;
+    color: #fff;
+    padding: 0px 16px;
+    font-size: 18px;
+    background: #36B37E;
+    border-radius: 3px;
+}
+
+.foter {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.foter_info {
+    width: 25%;
+
+}
+
+.foter_info h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5A7184;
+
+
+}
+
+.foter_info p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #959EAD;
+    width: 175px;
+
+}
+
+.foter_info p:nth-of-type(2) span {
+    margin: 0px 5px;
+}
+
+.foter_logo {
+    width: 32%;
+    margin-bottom: 8px;
+}
+
+.copy_right_circle {
+    padding: 18px 18px;
+    border-radius: 50%;
+    background-color: #1576D8;
+}
