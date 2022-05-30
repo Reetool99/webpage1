@@ -1,0 +1,792 @@
+/* for mobile */
+@media only screen and (min-width: 310px) and (max-width: 768px) {
+    .nav_responsive_li {
+        display: none;
+    }
+
+    .nav_icon {
+        font-size: 10px;
+    }
+
+    .top_girl {
+
+        width: 200px;
+        height: 320px;
+    }
+
+    .top_girl img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg_shape {
+        display: none;
+    }
+
+    .top_banner::after {
+        display: none;
+    }
+
+    .top_section {
+        height: 418px;
+        position: relative;
+    }
+
+    .companies_list {
+        width: 184px !important;
+        height: 311px !important;
+    }
+
+    .fotr_head {
+        font-size: 3.5vw !important;
+    }
+
+    .container {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .job_fields_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .job_fields_list {
+        margin-right: 25px;
+        width: 250px;
+        height: auto;
+        padding: 13px 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .job_fields_Opened>div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .job_fields_list h4 {
+        width: 180px;
+        height: auto;
+        font-size: 2.5vw;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .job_fields_info {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .job_fields_location {
+        font-size: 1.5vw;
+        margin-right: 10px;
+    }
+
+    .job_fields_time {
+        font-size: 2vw;
+    }
+
+    .job_fields_logoname {
+        margin: 0px 15px;
+        color: #183B56 !important;
+        font-size: 2vw;
+    }
+
+    .job_fields_day_responsive {
+        font-size: 2vw;
+    }
+
+    .job_fields_Opened {
+        height: auto;
+        width: 250px;
+
+
+    }
+
+    .job_fields_Opened_count h1 {
+        font-size: 3vw;
+        letter-spacing: 0.2px;
+    }
+
+    .job_fields_Opened_count p {
+        font-size: 2vw;
+        margin-top: 15px;
+    }
+
+    .job_fields_Opened_btn {
+        padding: 6px 17px;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .top_head {
+        font-size: 4.5vw;
+        margin-top: 9px;
+        height: 20px;
+    }
+
+    .top_para {
+        position: absolute;
+        /* bottom: 28%; */
+        top: 40%;
+        width: 268px;
+    }
+
+    .top_heads {
+        margin-top: 20px;
+    }
+
+    .Strt_Banner {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .job_section_head {
+        width: 50%;
+    }
+
+    .job_responsive_div1 {
+        display: none;
+    }
+
+    .job_responsive_div2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .companies_ad_grpimg {
+        width: 65%;
+        height: 370px;
+        margin: 0 auto;
+    }
+
+    .companies_ad_grpimg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top_box_banner {
+        display: none;
+    }
+
+    .top_box_btn {
+        height: 66%;
+    }
+
+    .top_box_list::after {
+        width: 2px;
+        height: 55px;
+        background-color: #E5EAF4;
+        bottom: -5px;
+        right: -45%;
+    }
+
+    .Strt_Banner_Head_right h2 {
+        font-size: 4vw;
+    }
+
+    .Strt_Banner_Head_right p {
+        font-size: 2vw;
+    }
+
+    .Strt_Banner_Head_left p {
+        font-size: 1.8vw;
+    }
+
+    .Strt_Banner_ul {
+        margin-left: 0px;
+        /* margin-right: -220px; */
+        right: 0%;
+        left: 0%;
+        margin-top: 70px;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        width: 44%;
+        margin: auto;
+    }
+
+    .article_str_lft {
+        width: 40%;
+    }
+
+    .Strt_banner_list_responsive {
+        display: none !important;
+    }
+
+    .Strt_Banner_list {
+        width: 299px;
+        height: 25vh;
+        /* border: 2px solid black; */
+        margin-right: 20px;
+        /* padding: 25px 68px; */
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 25px;
+        margin-bottom: 25px;
+    }
+
+    .Strt_Banner_list_info h3 {
+        font-size: 2.5vw;
+    }
+
+    .Strt_Banner_list_info p {
+        font-size: 1.5vw;
+    }
+
+    .job_section_head h1 {
+        font-size: 4vw;
+    }
+
+    .job_section_head_right p {
+        font-size: 2vw;
+    }
+
+    .job_section_head_right span {
+        font-size: 2vw;
+    }
+
+    .company-heading h1 {
+        font-size: 4vw;
+    }
+
+    .company-heading p {
+        font-size: 2vw;
+        margin-top: 15px;
+    }
+
+    .company-heading {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .companies_ul {
+        display: none;
+    }
+
+    .button-group {
+        display: none;
+    }
+
+    .article_str_lft h2 {
+        font-size: 4vw;
+    }
+
+    .article_str_rgt p {
+        font-size: 2vw;
+        text-align: justify;
+    }
+
+    .article_box_logo {
+        margin: 19px 10px;
+    }
+
+    .article_box_txt h3 {
+        font-size: 2vw;
+    }
+
+    .article_box_credits {
+        font-size: 1.5vw;
+        margin-right: 15px;
+    }
+
+    .article_box_tym {
+        font-size: 1vw;
+        padding-left: 15px;
+    }
+
+    .foter_info p {
+        width: 78px;
+        font-size: 1.5vw;
+    }
+
+    .foter_info h4 {
+        font-size: 2vw;
+    }
+
+    .dot_img {
+        display: none;
+    }
+
+    .nav_li {
+        padding: 5px 15px;
+    }
+
+    .m_footer {
+        height: auto;
+    }
+
+    .top_right_banner {
+        display: flex;
+        position: relative;
+        top: -70px;
+        right: 34%;
+    }
+
+    .foter_info {
+        width: 19%;
+    }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 540px) {
+    .nav_icon {
+        font-size: 2vw;
+    }
+
+    .foter_logo {
+        width: 32%;
+        margin-bottom: 8px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .foter_info p {
+        width: 45px;
+        font-size: 1.5vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .foter_info h4 {
+        text-align: center;
+    }
+
+    .job_fields_list {
+        margin-right: 0px;
+        width: 250px;
+        height: auto;
+        padding: 13px 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .top_right_banner {
+        display: none;
+    }
+
+    .top_para {
+        display: none;
+    }
+
+    .top_heads {
+        text-align: center;
+    }
+
+    .top_head {
+        height: 35px;
+        font-size: 7vw;
+        width: auto;
+    }
+
+    .logo_img {
+        width: 100%;
+        height: 50px;
+        /* border-radius: 19px; */
+        margin-top: 6px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .fotr_btn {
+        height: 30px;
+        padding: 0px 16px;
+        font-size: 2.2vw;
+    }
+
+    .top_icon {
+        margin: 0px 10px;
+    }
+
+    .nav_li {
+        padding: 5px 10px;
+        font-size: 3.5vw;
+    }
+
+    .foter_info p:nth-of-type(2) span {
+        margin: 0px 5px;
+        display: block;
+        text-align: center;
+    }
+
+    .fotr_head span::after {
+        width: 89%;
+        height: 3px;
+        bottom: 0%;
+        left: 0%;
+    }
+
+    .article_box_cnt {
+        flex-direction: column;
+    }
+
+    .article_box_logo {
+        margin: 8px 0px;
+        width: 35px;
+        height: 40px;
+    }
+
+    .article_box_logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fotr_icon {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    .top_right_banner {
+        top: -22px;
+        right: 11%;
+    }
+}
+
+/* for ipad */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .top_girl {
+
+        width: 200px;
+        height: 320px;
+    }
+
+    .top_girl img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg_shape {
+        display: none;
+    }
+
+    .top_banner::after {
+        display: none;
+    }
+
+    .top_section {
+        /* background-image: url(../img/Base\ \(1\).png); */
+        height: 508px;
+    }
+
+    .companies_list {
+        width: 184px !important;
+        height: 311px !important;
+    }
+
+    .fotr_head {
+        font-size: 3.5vw !important;
+    }
+
+    .container {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .job_fields_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .job_fields_list {
+        margin-right: 25px;
+    }
+
+    .top_head {
+        font-size: 2.5vw;
+        letter-spacing: 0.2px;
+        margin-top: 9px;
+        height: 20px;
+    }
+
+    .top_heads {
+        margin-top: 20px;
+    }
+
+    .Strt_Banner {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .job_section_head {
+        width: 50%;
+    }
+
+    .job_responsive_div1 {
+        display: none;
+    }
+
+    .job_responsive_div2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .companies_ad_grpimg {
+        width: 400px;
+        height: 500px;
+    }
+
+    .companies_ad_grpimg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top_box_banner {
+        display: none;
+    }
+
+    .top_box_btn {
+        height: 66%;
+    }
+
+    .top_box_list::after {
+        width: 2px;
+        height: 55px;
+        bottom: -5px;
+        right: -45%;
+    }
+
+    .Strt_Banner_Head_right h2 {
+        font-size: 4vw;
+    }
+
+    .Strt_Banner_Head_right p {
+        font-size: 2vw;
+    }
+
+    .Strt_Banner_Head_left p {
+        font-size: 1.8vw;
+    }
+
+    .Strt_Banner_ul {
+        margin-left: 0px;
+        margin-right: -220px;
+        right: 0%;
+        left: 5%;
+        margin-top: 70px;
+        margin-bottom: 80px;
+        flex-wrap: wrap;
+    }
+
+    .Strt_banner_list_responsive {
+        display: none !important;
+    }
+
+    .Strt_Banner_list {
+        width: 21%;
+        height: 220px;
+        /* border: 2px solid black; */
+        margin-right: 46px;
+        /* padding: 25px 68px; */
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 25px;
+        margin-bottom: 25px;
+    }
+
+    .companies_ul {
+        right: 4%;
+    }
+
+    .foter_info p {
+        width: 120px;
+    }
+
+    .dot_img {
+        display: none;
+    }
+
+    .nav_li {
+        padding: 5px 15px;
+    }
+
+    .m_footer {
+        height: auto;
+    }
+
+    .top_right_banner {
+        top: -22px;
+        right: 56px;
+    }
+}
+
+/* for ipad pro */
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+    .job_fields_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .job_section_head {
+        width: 50%;
+    }
+
+    .job_fields_list {
+        margin-right: 25px;
+    }
+
+    .top_girl {
+
+        width: 350px;
+        height: 420px;
+    }
+
+    .top_girl img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top_head {
+        /* width: 448px;
+        height: 0px; */
+        font-size: 2.5vw;
+        letter-spacing: 0.2px;
+        margin-top: 9px;
+        height: 35px;
+    }
+
+    .top_heads {
+        margin-top: 20px;
+    }
+
+    .top_para {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top_banner {
+        padding: 100px 0px;
+        position: relative;
+    }
+
+    .companies_ul {
+        flex-wrap: wrap;
+    }
+
+    .companies_list {
+        width: 184px !important;
+        height: 311px !important;
+    }
+
+    .bg_shape {
+        display: none;
+    }
+
+    .top_banner::after {
+        display: none;
+    }
+
+    .top_section {
+        /* background-image: url(../img/Base\ \(1\).png); */
+
+        height: 648px;
+    }
+
+    .container {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .companies_ad_grpimg {
+        width: 460px;
+        height: 580px;
+    }
+
+    .companies_ad_grpimg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .top_girl {
+
+        width: 280px !important;
+        height: 350px !important;
+    }
+
+    .top_girl img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .fotr_head {
+        font-size: 3vw !important;
+    }
+
+    .top_para {
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .top_box_list::after {
+        width: 2px;
+        height: 87px;
+        bottom: -20px;
+        right: -32%;
+    }
+
+    .top_box_banner {
+        margin-top: 0px;
+        bottom: 30%;
+    }
+}
+
+@media only screen and (min-width: 1261px) and (max-width: 1400px) {
+
+    /*  */
+
+
+    .Strt_Banner_list {
+        margin-right: 15px;
+    }
+
+    .job_fields_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .job_section_head {
+        width: 50%;
+    }
+
+    .job_fields_list {
+        margin-right: 25px;
+    }
+
+    .top_girl {
+
+        width: 509px;
+        height: 620px;
+    }
+
+    .top_girl img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .Strt_Banner_list {
+        margin-right: 15px;
+    }
+
+}
