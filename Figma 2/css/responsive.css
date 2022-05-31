@@ -373,7 +373,12 @@
     }
 
     .top_para {
-        display: none;
+        font-size: 2vw;
+        width: auto;
+        margin: 0 auto;
+        margin-top: 38px;
+        position: initial;
+        text-align: center;
     }
 
     .top_heads {
@@ -448,7 +453,9 @@
 
 @media only screen and (min-width: 640px) and (max-width: 768px) {
     .top_right_banner {
-        top: -22px;
+        display: flex;
+        position: relative;
+        top: -70px;
         right: 11%;
     }
 }
